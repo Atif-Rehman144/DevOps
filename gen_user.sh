@@ -64,3 +64,7 @@ usermod mentee30 -G robotics
 
 usermod mentee34 -G devops
 usermod mentee35 -G devops
+
+#assuming grades is stored like <name> <grade>
+
+awk '$2>60' task1-grades.txt
